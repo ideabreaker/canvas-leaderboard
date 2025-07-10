@@ -103,7 +103,7 @@ generateLeaderboard();
 
 ## Generated Image
 
-![Leaderboard Example](https://via.placeholder.com/900x600.png?text=Leaderboard+Image+Placeholder)
+![Leaderboard Example](leaderboard.png)
 
 
 ## API Reference
