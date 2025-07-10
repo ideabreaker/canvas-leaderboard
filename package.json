@@ -1,6 +1,6 @@
 {
   "name": "canvas-leaderboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A powerful and customizable Node.js library for generating leaderboard images using HTML Canvas.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
