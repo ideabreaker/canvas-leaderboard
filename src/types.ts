@@ -2,11 +2,11 @@
  * Defines the data structure for a single user on the leaderboard.
  * @example
  * const user = {
- * nickname: 'PlayerOne',
- * avatarUrl: 'https://example.com/avatar.png',
- * level: 15,
- * xp: 3500,
- * neededXp: 4000,
+ *     nickname: 'PlayerOne',
+ *     avatarUrl: 'https://example.com/avatar.png',
+ *     level: 15,
+ *     xp: 3500,
+ *     neededXp: 4000,
  * };
  */
 export interface LeaderboardData {
@@ -22,9 +22,9 @@ export interface LeaderboardData {
  * Defines the colors for the top 3 podium positions.
  * @example
  * const podiumColors = {
- * first: '#FFD700',
- * second: '#C0C0C0',
- * third: '#CD7F32',
+ *     first: '#FFD700',
+ *     second: '#C0C0C0',
+ *     third: '#CD7F32',
  * };
  */
 export interface PodiumColors {
@@ -49,8 +49,8 @@ export type GradientType =
  * Defines the options for a gradient background.
  * @example
  * const gradient = {
- * type: 'linear-top-bottom',
- * colors: ['#ff0000', '#0000ff'],
+ *     type: 'linear-top-bottom',
+ *     colors: ['#ff0000', '#0000ff'],
  * };
  */
 export interface GradientOptions {

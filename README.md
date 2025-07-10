@@ -101,7 +101,7 @@ async function generateLeaderboard() {
 generateLeaderboard();
 ```
 
-## Generated Image
+## Example Image
 
 ![Leaderboard Example](leaderboard.png)
 
@@ -120,11 +120,15 @@ Creates a new builder instance. No parameters needed.
     - `GradientOptions`: `{ type: GradientType, colors: string[] }`
         - `type`: e.g., `'linear-left-right'`, `'radial'`
         - `colors`: An array of color strings, e.g., `['#ff0000', '#00ff00', '#0000ff']`
-    - `AuroraBackgroundOptions`: `{ type: 'aurora', baseColor: string, aurora1Color: string, aurora2Color: string }`
+    - `AuroraBackgroundOptions`: `{ type: 'aurora', baseColor: string, spots: AuroraSpot[] }`
         - `type`: Must be `'aurora'`
         - `baseColor`: The base color of the background.
-        - `aurora1Color`: The color of the first aurora effect.
-        - `aurora2Color`: The color of the second aurora effect.
+        - `spots`: An array of aurora spots.
+            - `AuroraSpot`: `{ color: string, radius: number, x: number, y: number }`
+                - `color`: The color of the spot.
+                - `radius`: The radius of the spot.
+                - `x`: The x-coordinate of the spot.
+                - `y`: The y-coordinate of the spot.
 
 ### `.setHeader(options)`
 - `options` (`HeaderOptions`): `{ title, subtitle? }`.
